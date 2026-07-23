@@ -1,3 +1,4 @@
+from .cog import ChampionsCog
+
 async def setup(bot):
-    from .cog import ChampionsBattleCog
-    await bot.add_cog(ChampionsBattleCog(bot))
+    await bot.add_cog(ChampionsCog(bot))
