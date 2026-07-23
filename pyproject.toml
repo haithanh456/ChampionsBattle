@@ -1,0 +1,5 @@
+[project]
+name = "ChampionsBattle"
+version = "1.0.0"
+description = "Dream Team system for BallsDex - Equip temporary teams of balls"
+dependencies = []
