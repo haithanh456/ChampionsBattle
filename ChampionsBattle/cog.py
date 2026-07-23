@@ -62,6 +62,3 @@ class ChampionsCog(commands.Cog):
             await interaction.followup.send("Use: `start`, `add`, or `remove`", ephemeral=True)
 
 
-async def setup(bot):
-    await bot.add_cog(ChampionsCog(bot))
-    print("✅ ChampionsBattle package loaded successfully!")
